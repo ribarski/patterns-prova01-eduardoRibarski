@@ -3,7 +3,7 @@ class Database {
   constructor(connectionString) {
     this.connectionString = connectionString;
     this.id = Math.random();
-    console.log(`Nova conexão criada: ${this.id}`);
+    console.log(`🔌 Nova conexão criada: ${this.id}`);
   }
 
   query(sql) {
