@@ -23,7 +23,7 @@ const logger1 = new Logger();
 logger1.log("Primeira mensagem");
 
 const logger2 = new Logger();
-logger2.log("Segunda mensagem");
+logger2.log("Segunda mensagem nova");
 
 // Agora ambos compartilham o mesmo histórico ✅
 logger1.printHistory();
