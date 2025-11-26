@@ -1,4 +1,4 @@
-// Responsabilidade 1: Lógica de dados
+// --- S SOLID
 class DataRepository {
     loadDataFromAPI() {
       console.log("Buscando dados da API...");
@@ -6,7 +6,6 @@ class DataRepository {
     }
   }
   
-  // Responsabilidade 2: Lógica de formatação
   class ReportFormatter {
     formatAsJSON(title, data) {
       console.log("Formatando dados para JSON...");
@@ -14,11 +13,9 @@ class DataRepository {
     }
   }
   
-  // Responsabilidade 3: Lógica de persistência
   class FileSaver {
     save(filename, content) {
       console.log(`Salvando dados no arquivo ${filename}...`);
-      // fs.writeFileSync(filename, content);
       console.log("Salvo!");
     }
   }
